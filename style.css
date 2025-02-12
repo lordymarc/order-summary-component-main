@@ -145,3 +145,11 @@
   .cancel-button:hover{
     color: var(--dark-blue);
   }
+
+  /* px for shadow
+  rem for font-size, big paddings/padding on large elements like card content,
+  media queries rule, all margins, card's width
+  em for small paddings/padding on smaller elements, buttons
+  
+  thats my conclusion for now im so done testing stuff aaaargh
+  stuff depends on the situations but generally iykyk*/
