@@ -20,13 +20,8 @@
     background-image: url(images/pattern-background-mobile.svg);
     background-repeat: no-repeat;
     background-size: contain; /* !!!! contain not cover to get what we need */
-  }
-  
-  /* screen size of from tablet to desktop*/
-  @media only screen and (min-width: 48rem){
-    body{
-      background-image: url(images/pattern-background-desktop.svg);
-    }
+
+    padding: 5rem 1rem;
   }
 
     /* screen size of from tablet to desktop*/
@@ -37,6 +32,8 @@
       justify-content: center;
       align-items: center;
       background-image: url(images/pattern-background-desktop.svg);
+
+      padding: 0;
     }
   }
   
@@ -47,8 +44,10 @@
     overflow: hidden;
     box-shadow: 0px 20px 20px hsl(226, 63%, 82%);
 
-    margin:  3rem auto; 
-    /* center our card on mobile */
+    margin-inline: auto;
+    /* center our card on mobile horizontally */
+    /* added padding in the body earlier so our card doesnt take the whole screen
+    like a starving man he is */
   }
   
   .hero-image{
